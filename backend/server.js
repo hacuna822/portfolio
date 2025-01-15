@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded payload
 
 // Database connection
 const connection = mysql.createConnection({
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'root',
     password: 'basketball@78',
     database: 'contact_form3'
