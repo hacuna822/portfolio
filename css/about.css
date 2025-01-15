@@ -118,13 +118,13 @@ p {
 /* Code for adjusted media */
 @media (max-width: 768px) {
     p {
-        font-size: small;
+        font-size: medium;
     }
     #aboutImage {
         margin-bottom: 100px;
     }
     #aboutImage2 {
-        margin-bottom: 100px;
+        display: none;
     }
     .aboutP {
         display: none;
