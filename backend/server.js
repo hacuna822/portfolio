@@ -15,11 +15,11 @@ app.use(bodyParser.urlencoded({ extended: true })); // Parse URL-encoded payload
 
 // Database connection
 const connection = mysql.createConnection({
-    host: '127.0.0.1',
+    host: 'https://portfolio-hacuna822.onrender.com',
     user: 'root',
     password: 'basketball@78',
     database: 'contact_form3'
-    port: 3306  
+    port: 3306 
 });
 
 connection.connect(function(err) {
