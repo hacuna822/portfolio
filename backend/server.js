@@ -19,7 +19,6 @@ const connection = mysql.createConnection({
     user: 'root',
     password: 'basketball@78',
     database: 'contact_form3'
-    port: 3306 
 });
 
 connection.connect(function(err) {
