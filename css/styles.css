@@ -1,0 +1,327 @@
+body {
+    overflow-x: hidden;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the navigation bar (might need to adjust for mobile devices) */
+
+nav {
+    position: sticky;
+    margin-left: 30px;
+    margin-top: 40px;   
+    color: black; 
+    padding: 10px 0; 
+    background-color: white
+      
+}
+
+
+nav ul {
+    display: flex;              
+    justify-content: center;
+     margin: 0;                   
+    padding: 0;                 
+    height: 100%;                 
+}
+
+
+nav ul li {
+    margin: 0 30px;          
+}
+
+
+nav ul li a {
+    color: black;            
+    text-decoration: none; 
+    position: relative;    
+    font-size: 25px;         
+    padding: 8px 16px;
+    padding-bottom: 2px; 
+    font-weight: bold;     
+}
+
+nav ul li a::after {
+    content: '';                
+    position: absolute;          
+    left: 0;                     
+    bottom: 0;                   
+    width: 0;                    
+    height: 2px;                 
+    background-color: blue;      
+    transition: width 0.3s ease; 
+}
+
+
+nav ul li a:hover::after {
+    width: 100%;                
+}
+
+
+
+
+
+/*Code for the main of the website/image */
+
+main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.body-image {
+    display: block;
+    width: 25%;
+    height:auto;
+    margin-top: 100px;
+    transition: ease width .5s;
+}
+
+.body-image:hover {
+    width: 26%;
+    height: auto;
+    border: none;
+    
+}
+
+
+/*Code for the text under the image*/
+
+h2 {
+    font-weight: bold;
+    max-width: 500 px;
+    text-align: center;
+    margin: 0 auto;
+    text-indent: 20px;
+    margin-top: 50px;
+}
+
+#writing-section {
+    background-color: skyblue; 
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 8px; 
+    width: fit-content;
+}
+
+
+
+
+
+
+/*Code for the tutoring section of website*/
+
+#tutoring-image {
+    width: 50%;
+    height: 100%;
+    flex-shrink: 0;
+    margin-left: 80px;
+    
+    
+}
+
+
+#tutoring-info {
+    margin-top: 150px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px; 
+    padding: 30px; 
+    background-color: skyblue; 
+    border-radius: 12px;
+    
+}
+
+
+
+#tutoring-text h1 {
+    margin: 0; 
+    padding: 0; 
+    text-align: left; /* Align text to the left */
+    padding-top: 10px;
+    margin-right: 30px;
+    font-size: 35px;
+    
+}
+
+.tutoring-text p {
+    font-size: 25px;
+}
+
+.tutoring-text a {
+    color: blue; 
+    text-decoration: underline; 
+}
+
+.tutoring-text a:hover {
+    color: darkblue; 
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+/* Basketball Section*/
+
+#basketball-info {
+    margin-top: 100px; /* Move the section down */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 60px; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 8px; 
+}
+
+
+.basketball-text {
+    flex: 1; 
+    max-width: 600px; 
+}
+
+
+#basketball-image {
+    width: auto; 
+    height: 40%; 
+    flex-shrink: 0; 
+    border-radius: 8px; 
+    margin-left: 50px;
+}
+
+.basketball-text p {
+    font-size: 25px;
+}
+
+
+
+
+
+
+/*Code for the footer*/
+
+.footer-title {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem; 
+}
+
+.footer-title h2 {
+    margin-top: 140px;
+}
+
+
+#footerAbout ul {
+    list-style: none;
+    justify-content: center; /*Center the items*/
+    padding: 20px;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+#footerAbout nav ul li {
+    margin: 0px 30px;
+}
+
+#footerAbout nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#footerAbout nav ul li a.active {
+    font-weight: bold;
+}
+
+
+
+
+/*Code for smart phone users*/
+
+@media (max-width: 768px) {
+    
+    /* Optimizing images for phone users */
+    
+    .body-image {
+        width: 50%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    #basketball-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    #tutoring-image {
+        width: 45%;
+        height: auto;
+        flex-shrink: 0;
+        margin-left: 0px;
+        margin-right: 40px;
+        
+        }
+   
+
+    nav ul li {
+        margin: 0 20px;          /* Add space between each link */
+    }
+
+
+
+    /* Fixing tutoring section */
+   
+    #tutoring-info {
+        margin-top: 100px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: space-between;
+        gap: 10px; 
+        padding: 30px; 
+        background-color: skyblue; 
+        border-radius: 12px;
+        width: 100%; 
+        max-width: 100%; 
+        box-sizing: border-box; 
+        overflow: hidden; 
+        margin-right: 50px;
+    }
+   
+   
+   
+    .tutoring-text p {
+        /* Spacing between paragraphs */
+       font-size: 15px;
+       text-align: left;
+       
+   }
+   
+   /*Make font smaller for phone users*/
+   
+   .basketball-text p{
+        font-size:15px;
+   }
+   #writing-section {
+    background-color: skyblue; 
+    padding: 20px; 
+    border-radius: 8px; 
+    width: fit-content;
+    top: -100px;
+    position: relative;
+}
+   
+}
+
+
+
