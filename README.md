@@ -10,7 +10,7 @@ Challenges and Future of the Project:  Since it was my first time coding a serve
 
 ### How to run the project
 Right now the page is live here: https://main.d3m3xajdtc2thi.amplifyapp.com 
-Since github only supports static sites the backend is not running, but in a week I will get the webserver posted on Render for full functionality. I will post new link as soon as possible.
+
 
 #### How to use project
 Click the link, scroll around, explore. If you have any suggestions please let me know. I am always looking for ways to improve.
