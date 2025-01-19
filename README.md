@@ -9,7 +9,7 @@ Languages used: For frontend, HTML, CSS and Javascript. For the backend and the 
 Challenges and Future of the Project:  Since it was my first time coding a server, it took several attempts and much debugging for my server to run successfully. Also had challenges connecting to the MySql database. Due to MySql password issues, after reading numerous postings on stackoverflow, I switch to MySQL2 to solve error. For the future I hoped to add more functionally on the frontend, specifcally on the index page, adding more pictures and a cleaner design on the page in general. Moreover, I will add a projects.html page that will be a source for all my projects.
 
 ### How to run the project
-Right now the page is live here: https://main.d3m3xajdtc2thi.amplifyapp.com 
+Right now the page is live here: https://hectoracuna.net
 
 
 #### How to use project
