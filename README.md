@@ -2,7 +2,7 @@
 A personal portfolio website to showcase my projects and skills.
 
 ## About the project
-Full stack website for potential clients to read about my knowledge in both math tutoring and basketball, while giving them a seamless way to contact me through the website. Aditionally it acts as a convient way for users to view future projects of mine. 
+Full stack website for potential clients to read about my knowledge in both math tutoring and basketball, while giving them a seamless way to contact me through the website. Additionally it acts as a convenient way for users to view future projects of mine. 
 
 Languages used: For frontend, HTML, CSS and Javascript. For the backend and the server, used Javascript. Used MySQL for when a user contacts me through the website the data is automatically stored in database. 
 
